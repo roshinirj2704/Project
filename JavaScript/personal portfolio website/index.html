@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal portfolia website</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" class="logo">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Service</a></li>
+                    <li><a href="#">Portpolio</a></li>
+                    <li><a href="#">Contact</a></li>
+
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p>Fullstack Developer</p>
+                <h1>Hi, I'm <span>Roshini Jeganathan</span><br> From India</h1>
+            </div>
+    </div>
+ </div>
+ <!---------------about-------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                 <div class="about-col-1">
+                    <img src="images/user.png">
+                </div>
+
+                 <div class="about-col-2">
+                     <h2 class="subtitle">About Me</h2>
+                     <p>As a recent graduate with strong foundation in Java, SQL, HTML, CSS and
+                        Javascript. I am excited to embark on a career in software develpment and web
+                        design. I have a solid understanding of Java programming and database
+                        management through SQL. Additionally, I have hands on experience with HTML, CSS
+                        and Javascript for web development.I am a quick learner, highly motivated, and
+                        enthusiastic about applying my skills to real-world projects.I am eager to contribute
+                        and grow as adeveloper in a dynamic team or organization.
+                        </p>
+                     <div class="tab-titles ">
+                         <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                         <p class="tab-links" onclick="opentab('projects')">projects</p>
+                         <p class="tab-links" onclick="opentab('education')">Education</p>
+                     </div>
+                     <div class="tab-contents active-tab">
+                        <ul>
+                            <li><span>Backend development</span><br>Core Java<br> OOP(s) Concepts</li>
+                            <li><span>Web development</span><br>HTML5<br>CSS3<br>JavaScript<br>Wordpress</li>
+                            <li><span>Database</span><br>SQL</li>
+                            <li><span>Github</span></li>
+                            <li><span>MS Ecel</span></li>
+
+                        </ul>
+                     </div>
+                     <div class="tab-contents" id="projects">
+                        <ul>
+                            <li><span>Java </span><br>Core Java<br> OOP(s) Concepts</li>
+                            <li><span>Web development</span><br>HTML5<br>CSS3<br>JavaScript<br>Wordpress</li>
+                            <li><span>Database</span><br>SQL</li>
+                            <li><span>Github</span></li>
+                            <li><span>MS Ecel</span></li>
+
+                        </ul>
+                     </div>
+                     <div class="tab-contents" id="'education">
+                        <ul>
+                            <li><span>B.TECH Information Technology</span><br>2019-2023<br>Mahendra Engineering College For Women<br></li>
+                            <li><span>HSC</span><br>2018-2019<br>Govternment Girls Higher Secondary School<br></li>
+                            <li><span>SSLC</span><br>2016-2017<br>SPM High SChool</li>
+                        </ul>
+                     </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <script>
+        var tablinks =document.getElementsByClassName("tab-links");
+        var tabcontents =document.getElementsByClassName("tab-contents");
+    </script>
+</body>
+</html>
